@@ -1,0 +1,29 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme" : "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.tabSize": 2,
+    "editor.renderLineHighlight": "gutter",
+    "editor.renderWhitespace": "none",
+    "explorer.confirmDragAndDrop": false,
+    "editor.rulers": [80, 120],
+    "terminal.integrated.fontSize": 14,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles" : {
+        "javascript": "jsx"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.parameterHints.enabled": false,
+    "javascript.suggest.autoImports": false,
+    "editor.tokenColorCustomizations": {
+        "semanticHighlighting": true
+    },
+}
