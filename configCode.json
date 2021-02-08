@@ -67,7 +67,8 @@
         "modules": "components",
         "implementations": "core",
         "fakes": "mock",
-        "interfaces": "mappings"
+        "interfaces": "mappings",
+        "seeders": "helper"
     },
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.zoomLevel": 0
