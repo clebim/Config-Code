@@ -24,8 +24,10 @@
         "django-html": "html"
     },
     "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
     "editor.parameterHints.enabled": false,
-    "javascript.suggest.autoImports": false,
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
     "editor.tokenColorCustomizations": "enable",
     "editor.codeActionsOnSave": {
         "source.fixAll": true
@@ -62,7 +64,7 @@
         "entities": "class",
         "schemas": "class",
         "typeorm": "database",
-        "repositories": "mappings",
+        "repositories": "connection",
         "migrations": "tools",
         "modules": "components",
         "implementations": "core",
@@ -70,6 +72,4 @@
         "interfaces": "mappings",
         "seeders": "helper"
     },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "window.zoomLevel": 0
 }
