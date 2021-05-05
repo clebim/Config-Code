@@ -70,6 +70,21 @@
         "implementations": "core",
         "fakes": "mock",
         "interfaces": "mappings",
-        "seeders": "helper"
+        "seeders": "helper",
+        "contexts": "hook"
     },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/src/_metronic": true
+    },
+    "liveshare.authenticationProvider": "GitHub",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
+    
 }
