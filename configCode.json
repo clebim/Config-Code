@@ -1,6 +1,5 @@
 {
-    "workbench.colorTheme": "Omni",
-    "workbench.iconTheme" : "material-icon-theme",
+    "workbench.iconTheme": "material-icon-theme",
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontSize": 18,
     "editor.fontLigatures": true,
@@ -21,16 +20,15 @@
     },
     "emmet.syntaxProfiles" : {
         "javascript": "jsx",
-        "django-html": "html"
     },
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "typescript.updateImportsOnFileMove.enabled": "never",
+    "javascript.updateImportsOnFileMove.enabled": "prompt",
+    "typescript.updateImportsOnFileMove.enabled": "prompt",
     "editor.parameterHints.enabled": false,
     "javascript.suggest.autoImports": true,
     "typescript.suggest.autoImports": true,
-    "editor.tokenColorCustomizations": "enable",
     "editor.codeActionsOnSave": {
-        "source.fixAll": true
+        "source.fixAll": true,
+        "source.fixAll.eslint": true
     },
     "eslint.validate": [
         "javascript", "javascriptreact", "typescript", "typescriptreact",
@@ -71,20 +69,26 @@
         "fakes": "mock",
         "interfaces": "mappings",
         "seeders": "helper",
-        "contexts": "hook"
+        "contexts": "hook",
+        "presentation": "views",
+        "infra": "interface",
+        "factories": "rules",
+        "startup": "home",
+        "mocks": "mock",
+        "domain": "app",
+        "useCases": "controller",
+        "target": "other",
+        "external": "packages"
     },
+    "material-icon-theme.folders.color": "#ef5350",
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true,
         "**/src/_metronic": true
     },
-    "liveshare.authenticationProvider": "GitHub",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter-notebook",
-            "filenamePattern": "*.ipynb"
-        }
-    ]
+    "diffEditor.ignoreTrimWhitespace": false,
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.colorTheme": "Atom One Dark"
     
 }
